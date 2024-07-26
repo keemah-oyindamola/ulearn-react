@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  .Main-div{
+    /* background-color: blue; */
+    /* width: 100vw;
+    height: 100vh; */
+  }
+  
+  .firstnav-div{
+    background-color: whitesmoke;
+    width: 100vw;
+    height: 10%;
+    /* position: fixed; */
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 2px -2px gray;
+    justify-content: center;
+    /* box-shadow: 13px gray ; */
+    
+  }
+  .img-div img{
+    height: 80px;
+    cursor: pointer;
+  }
+  .categories-div p{
+    margin-left: 10px;
+    color: RGB(45, 47, 49);
+    cursor: pointer;
+  }
+  .categories-div :hover{
+    color: purple;
+  }
+  .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+  }
+  .search-div input{
+    border: none;
+    width: 550px;
+    height: 50px;
+    background-color: aliceblue;
+    border-radius: 25px;
+    margin-left: 10px;
+    outline: none;
+  }
+  .search-div{
+    width: 550px;
+    border: 1px solid black;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+    background-color: aliceblue;
+  }
+  .search-div span{
+    margin-left: 5px;
+  }
+  .udemybusiness-div{
+    margin-left: 20px;
+    color: RGB(45, 47, 49);
+    cursor: pointer;
+  }
+  .udemybusiness-div :hover{
+    color: purple;
+  }
+  .cart-div{
+    margin-left: 20px;
+    color: RGB(45, 47, 49);
+    cursor: pointer;
+  }
+  .cart-div:hover{
+    color: purple;
+  }
+  .login-div button{
+    width: 85px;
+    height: 35px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: white;
+    color: black;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  .signup-div button{
+    width: 85px;
+    height: 35px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  .login-div button:hover{
+    background-color: black;
+    color: white;
+  }
+  .signup-div button:hover{
+    background-color: white;
+    color: black;
+  }

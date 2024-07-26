@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.side-nav {
+    background-color: RGB(135, 16, 216);
+    width: 100%; /* Set the width of the sidebar */
+    height: 100vh;
+    /* margin-top: 50px; */
+    overflow-y: scroll; /* Corrected property */
+    position: fixed; /* Fix the sidebar to the left */
+    transition: transform 0.3s ease-in-out;
+
+}
+.side-nav.hidden {
+    transform: translateX(-250px); /* Hide the sidebar */
+}
+
+.side-nav.visible {
+    transform: translateX(0); /* Show the sidebar */
+}
+
+.logo-div img {
+    height: 80px;
+    cursor: pointer;
+    /* padding: 20px; */
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24;
+}
+
+.dashbd-div, .resources-div {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.dashbd-div p, .resources-div p {
+    margin-left: 8px;
+}
+
+.general-div {
+    margin-left: 20px;
+    color: RGB(172, 166, 166);
+    margin-top: 5px;
+}
+.academics-div{
+    margin-left: 20px;
+    color: RGB(172, 166, 166);
+    margin-top: 15px;
+}

@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.adminmaain-div {
+    /* background-color: green; */
+    background-color: RGB(135, 16, 216);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.adminsecond-div {
+    flex-grow: 1;
+    /* background-color: green; */
+    background-color: RGB(135, 16, 216);
+    /* background-color: white; */
+    padding: 20px;
+    transition: margin-left 0.3s ease-in-out, width 0.3s ease-in-out;
+    /* width: 90%; */
+     width: calc(100% - 250px); /*Full width minus sidebar width */
+}
+
+.adminuser-name {
+    display: flex;
+}
+
+.course-register-div {
+    width: 250px;
+    height: 90px;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.course-proggress-div {
+    width: 250px;
+    height: 90px;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 35px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.adminflex-div {
+    display: flex;
+}
+
+.course-redister-div h2 {
+    padding-left: 150px;
+}
+
+
+.inputt{
+    width: 500px;
+    height: 50px;
+    margin: 20px;
+
+}
+textarea{
+    width: 250px;
+    height: 150px;
+    margin: 20px;
+
+}
+.buttonn{
+    width: 200px;
+    height: 50px;
+    margin: 20px;
+
+}

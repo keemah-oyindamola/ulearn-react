@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.maain-div {
+    /* background-color: green; */
+    /* background-color: RGB(135, 16, 216); */
+    width: 100vw;
+    /* height: 2000px; */
+    height: 100vh;
+    display: flex;
+}
+
+.second-div {
+    flex-grow: 1;
+    /* background-color: green; */
+    /* background-color: RGB(135, 16, 216); */
+    background-color: white;
+    padding: 20px;
+    transition: margin-left 0.3s ease-in-out, width 0.3s ease-in-out;
+    /* width: 90%; */
+    width: calc(100% - 250px);
+    /*Full width minus sidebar width */
+}
+
+.second-div.full-width {
+    margin-left: 0;
+    /* margin-right: 900px; */
+    width: 200%;
+    /* Full width when sidebar is hidden */
+}
+
+.user-name {
+    display: flex;
+}
+
+.course-redister-div {
+    width: 250px;
+    height: 90px;
+    /* background-color: whitesmoke; */
+    background-color: RGB(135, 16, 216);
+    color: black;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.course-progress-div {
+    width: 250px;
+    height: 90px;
+    /* background-color: whitesmoke; */
+    background-color: RGB(135, 16, 216);
+    color: black;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 35px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.flex-div {
+    display: flex;
+}
+
+.course-redister-div h2 {
+    padding-left: 150px;
+}
+
+#sidenav-div {
+    width: 250px;
+    height: 550px;
+    /* position: fixed; */
+    /* margin-top: 70px;*/
+    position: sticky;
+    top: 0;
+    display: none;
+    background-color: RGB(135, 16, 216);
+    transition: transform 0.3s ease-in-out;
+}
+
+#sidenav-div.hidden {
+    transform: translateX(-250px);
+}
+
+#sidenav-div.visible {
+    transform: translateX(0);
+}
+
+.course-detail {
+    margin-top: 15px;
+}
+
+.avlb- h3 {
+    font-size: 20px;
+}
+
+.coursedisp-flex {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.python h3 {
+    padding: 25px;
+    cursor: pointer;
+}
+
+.web-development h3 {
+    padding: 25px;
+    color: rgba(0, 0, 0, 0.61);
+    cursor: pointer;
+}
+
+.python-div {
+    width: 98%;
+    height: 69%;
+    border: 1px solid black;
+    padding-left: 20px;
+    
+}
+
+.explore-python {
+    
+    /* padding-left: 20px; */
+    /* cursor: pointer; */
+}
+
+.explore-python h2 {
+    margin-top: 10px;
+}
+
+.explore-python h3 {
+    font-size: 15px;
+}
+
+.explore-python button {
+    width: 15%;
+    height: 40px;
+    border: 1px solid black;
+    margin-top: 10px;
+    background-color: white;
+    cursor: pointer;
+}
+.video-div{
+    display: flex;
+    align-items: center;
+}
+.div-img {
+    /* width: 25%;
+    height: 29%;
+    border: 1px solid black; */
+    margin-top: 15px;
+    cursor: pointer;
+}
+.div-img2{
+    margin-top: 15px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.div-img2 img{
+    width: 250px;
+    height: 130px; 
+}
+.div-img h2{
+    font-size: 12px;
+}
+.div-img2 h2{
+    font-size: 12px;
+}
+.div-img img {
+    width: 250px;
+    height: 130px;
+}

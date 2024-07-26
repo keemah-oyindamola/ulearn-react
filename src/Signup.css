@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-div {
+    /* background-color: blue; */
+    width: 100vw;
+    height: 87vh;
+}
+
+.first-div {
+    /* background-color: red; */
+    /* margin: auto; */
+    justify-content: center;
+    display: flex;
+}
+
+.content-center {
+    /* justify-content: center;
+    display: flex; */
+    padding-top: 30px;
+    /* margin: auto; */
+}
+
+.input {
+    width: 60%;
+    height: 20%;
+    border: 1px solid black;
+    padding-top: 15px;
+    padding-left: 9px;
+    margin-top: 10px;
+}
+
+.input::placeholder {
+    color: black;
+}
+
+.checkbox {
+    display: flex;
+}
+.checkbox input{
+    accent-color: RGB(135, 16, 216);
+}
+
+.signup {
+    background-color: RGB(135, 16, 216);
+    border: none;
+    width: 60%;
+    height: 20%;
+    color: white;
+    margin-top: 15px;
+}
+.ptag{
+    color: rgba(0, 0, 0, 0.658);
+    font-size: 12px;
+    margin-top: 10px;
+}
+.ptags{
+    color: rgba(0, 0, 0, 0.658);
+    font-size: 15px;
+     
+}
+hr{
+    margin-top: 10px;
+}
+.ptag-a{
+    color: rgba(0, 0, 0, 0.658);
+}
+.login{
+    color: RGB(135, 16, 216);
+}
+.formik-p{
+    color: RGB(135, 16, 216);
+    color: rgba(0, 0, 0, 0.658);
+    font-size: 15px;
+    /* margin-top: 10px; */
+}

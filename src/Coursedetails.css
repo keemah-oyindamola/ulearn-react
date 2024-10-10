@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #fff;
+}
+.course-details-container {
+    padding-left: 30px;
+    max-width: 1500px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* height: 200px; */
+    /* background-color: rgb(45,47,49); */
+    /* margin: 0 auto; */
+}
+
+.course-video {
+    display: flex;
+    padding-top: 20px;
+    background-color: rgb(45,47,49);
+    /* max-width: 1500px; */
+
+    /* align-items: center; */
+}
+
+.video-div {
+    width: 50%;
+    height: 350px;
+    background-color: #fff;
+    /* background-color: rebeccapurple; */
+    border: #020202;
+    /* margin-top: 20px; */
+    display: block;
+}
+
+.video-div img {
+    width: 100%;
+}
+
+.video-div .video {
+    width: 100%;
+    /* height: 50px; */
+}
+
+.video-div p,h1 {
+    /* color: rgb(192, 196, 252); */
+    /* padding-left: 10px; */
+    margin-bottom: 10px;
+}
+.price-div{
+    display: block;
+}
+.price-button{
+    display: flex;
+    align-items: center;
+}
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-left: 10px;
+    /* margin-bottom: 25px; */
+}
+
+.add-to-cart {
+    background-color: #9b3af9;
+    /* Matching the purple color */
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 200px;
+    text-align: center;
+}
+
+.buy-now {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 200px;
+    text-align: center;
+}
+
+.add-to-cart:hover,
+.buy-now:hover {
+    opacity: 0.9;
+}
+
+
+.desc {
+    /* margin-left: 60px; */
+    padding-left: 40px;
+    box-sizing: border-box;
+    color: white;
+}
+
+.desc p {
+    margin-top: 20px;
+}
+.desc h1{
+    margin-top: 20px;
+}
+.price {
+    color: rgb(192, 196, 252);
+}
+.development{
+    display: flex;
+    align-items: center;
+    /* margin-top: 20px; */
+    /* justify-content: center; */
+}
+.development p{
+    color: rgb(192, 196, 252);
+}
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+  }
+  #right{
+    top: -30px;
+    padding-left: 10px;
+    font-size:medium;
+  }
+
+  .learn-section {
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    padding-top: 40px;
+    background-color: #fff;
+    /* font-family: Arial, sans-serif; */
+}
+
+.learn-section h2 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.learn-grid {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.learn-grid ul {
+    list-style-type: none;
+    padding: 0;
+    /* width: 48%; */
+}
+
+.learn-grid ul li {
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 10px;
+}
+
+.learn-grid ul li::before {
+    content: '\2713'; /* Checkmark symbol */
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 16px;
+    color: #000;
+    line-height: 1.5;
+}
+
+
+
+
+
+
+
+.course-content-div{
+    padding: 20px;
+}
+
+.course-content-div h1{
+    font-weight: 700;
+}
+.course-list {
+    width: 100%;
+    max-width: 600px;
+    /* margin: 0 auto; */
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    background-color: #fff;
+    margin-top: 20px;
+}
+.course-item {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.course-item:last-child {
+    border-bottom: none;
+}
+.course-title {
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 10px;
+}
+.course-details {
+    font-size: 14px;
+    color: #6c757d;
+    margin-left: auto;
+    /* margin-left: 200px; */
+}
+
+
+
+
+
+
+
+
+
+
+.section-content {
+    padding: 10px 15px;
+    /* display: none; */
+}
+.section-content-subdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.section-content2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.showVideo{
+    background-color: red;
+    width: 100%;
+    height: 40vh;
+}
+#videos{
+    height: 100%;
+}
+
+
+
+
+

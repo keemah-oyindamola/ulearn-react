@@ -75,7 +75,7 @@
     /* margin-top: 70px;*/
     position: sticky;
     top: 0;
-    display: none;
+    /* display: none; */
     background-color: RGB(135, 16, 216);
     transition: transform 0.3s ease-in-out;
 }

@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef7ea;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+.content {
+    max-width: 50%;
+}
+
+.content h1 {
+    font-size: 36px;
+    color: #232323;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 18px;
+    color: #555555;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+}
+
+.get-started, .see-more {
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 16px;
+    margin-right: 15px;
+}
+
+.get-started {
+    background-color: RGB(135, 16, 216);
+    color: white;
+    border: none;
+}
+
+.see-more {
+    color: RGB(135, 16, 216);
+    border: 2px solid RGB(135, 16, 216);
+}
+
+.container img {
+    height: 100%;
+    width: 80%;
+    margin-left: 50px;
+}
+
+.container2 {
+    padding-left: 50px;
+}
+
+.featured-courses {
+    display: flex;
+    align-items: center;
+}
+
+.courses {
+    max-width: 50%;
+}
+
+.courses p {
+    color: RGB(135, 16, 216);
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding-top: 15px;
+}
+
+.courses h1 {
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.button-div button {
+    width: 150px;
+    height: 50px;
+    background-color: #ffffff;
+    border: 2px solid RGB(135, 16, 216);
+    margin-left: 60rem;
+}
+
+.containerr {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    gap: 60px;
+}
+
+.course-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    width: 300px;
+    height: 560px;
+    /* height: auto; */
+    text-align: left;
+}
+
+.course-card:hover {
+    transform: scale(1.05);
+}
+
+.course-image {
+    width: 100%;
+    height: 40%;
+    /* object-fit: cover; */
+    /* align-items: center; */
+    /* text-align: center; */
+    /* height: auto; */
+    display: block;
+    /* justify-content: center; */
+}
+
+.course-card .card-content {
+    padding: 20px;
+}
+
+h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.price, .old-price {
+    font-size: 1.1rem;
+    color: RGB(135, 16, 216);
+    margin-top: 15px;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #999;
+    margin-bottom: 8px;
+}
+
+.add-to-cart {
+    background-color: RGB(135, 16, 216);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 900px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .container img {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .content {
+        max-width: 90%;
+    }
+
+    .button-div button {
+        margin-left: 0;
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;
+        padding: 0 20px;
+    }
+
+    .content h1 {
+        font-size: 28px;
+    }
+
+    .content p {
+        font-size: 16px;
+    }
+
+    .containerr {
+        justify-content: center;
+    }
+
+    .course-card {
+        width: 100%;
+    }
+
+    .courses h1 {
+        font-size: 32px;
+    }
+
+    .button-div button {
+        margin: 0 auto;
+    }
+}

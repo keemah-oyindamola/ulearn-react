@@ -6,6 +6,7 @@ import axios from 'axios'
 import { ToastContainer, toast } from 'react-toastify'
 import { useNavigate } from 'react-router-dom'
 import 'react-toastify/dist/ReactToastify.css';
+import { Link } from 'react-router-dom'
 
 
 const Signup = () => {
@@ -86,7 +87,7 @@ const Signup = () => {
                         <button type='submit' className='signup'>Sign up</button>
                         <p className='ptag'>By signing up, you agree to our <a className='ptag-a' href="">Terms of Use</a> and <a className='ptag-a' href="">Privacy Policy</a>.</p>
                         {/* <hr /> */}
-                        <p className='ptag'>Already have an account? <a className='login' href="">Log in</a></p>
+                        <p className='ptag'>Already have an account? <Link to='/login'>Log in</Link></p>
                         <ToastContainer />
                         {/* </div> */}
                     </div>

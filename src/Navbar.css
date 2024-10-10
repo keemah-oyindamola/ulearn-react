@@ -6,17 +6,19 @@
     /* background-color: blue; */
     /* width: 100vw;
     height: 100vh; */
+    box-sizing: border-box;
+    max-width: 1500px;
   }
   
   .firstnav-div{
     background-color: whitesmoke;
     width: 100vw;
-    height: 10%;
+    height: auto;
     /* position: fixed; */
     display: flex;
     align-items: center;
     box-shadow: 0 4px 2px -2px gray;
-    justify-content: center;
+    /* justify-content: center; */
     /* box-shadow: 13px gray ; */
     
   }

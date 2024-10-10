@@ -1,78 +1,109 @@
-* {
+/* Admindashbd.css */
+
+/* General layout styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
     margin: 0;
     padding: 0;
-}
-
-.adminmaain-div {
-    /* background-color: green; */
-    background-color: RGB(135, 16, 216);
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-}
-
-.adminsecond-div {
-    flex-grow: 1;
-    /* background-color: green; */
-    background-color: RGB(135, 16, 216);
-    /* background-color: white; */
+    box-sizing: border-box;
+  }
+  
+  .admin-main-div {
     padding: 20px;
-    transition: margin-left 0.3s ease-in-out, width 0.3s ease-in-out;
-    /* width: 90%; */
-     width: calc(100% - 250px); /*Full width minus sidebar width */
-}
-
-.adminuser-name {
+  }
+  
+  .admin-header {
     display: flex;
-}
-
-.course-register-div {
-    width: 250px;
-    height: 90px;
-    background-color: whitesmoke;
-    color: black;
-    border-radius: 10px;
-    margin-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #282c34;
+    color: #fff;
+  }
+  
+  .admin-header h3 {
+    margin: 0;
+  }
+  
+  .admin-header .menu-icon {
+    cursor: pointer;
+    color: #fff;
+  }
+  
+  /* Table styles */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  table thead {
+    background-color: #282c34;
+    color: #fff;
+  }
+  
+  table th, table td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  table tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  table th {
+    font-weight: bold;
+  }
+  
+  /* Form styles */
+  form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+  }
+  
+  .input, .inputt, textarea {
+    width: 100%;
     padding: 10px;
-    box-sizing: border-box;
-}
-
-.course-proggress-div {
-    width: 250px;
-    height: 90px;
-    background-color: whitesmoke;
-    color: black;
-    border-radius: 10px;
-    margin-top: 20px;
-    margin-left: 35px;
-    padding: 10px;
-    box-sizing: border-box;
-}
-
-.adminflex-div {
-    display: flex;
-}
-
-.course-redister-div h2 {
-    padding-left: 150px;
-}
-
-
-.inputt{
-    width: 500px;
-    height: 50px;
-    margin: 20px;
-
-}
-textarea{
-    width: 250px;
-    height: 150px;
-    margin: 20px;
-
-}
-.buttonn{
-    width: 200px;
-    height: 50px;
-    margin: 20px;
-
-}
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .buttonn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .buttonn:hover {
+    background-color: #45a049;
+  }
+  
+  /* Action button */
+.buttonnn {
+    padding: 8px 12px;
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .buttonn:hover {
+    background-color: #c0392b;
+  }
+  

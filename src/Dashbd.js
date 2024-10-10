@@ -13,9 +13,9 @@ const Dashbd = () => {
 
   return (
     <div className='maain-div'>
-      <div id='sidenav-div' className={isSidebarVisible ? 'visible' : 'hidden'}>
+      {/* <div id='sidenav-div' className={isSidebarVisible ? 'visible' : 'hidden'}>
         <Sidenav />
-      </div>
+      </div> */}
       <div className={`second-div ${isSidebarVisible ? '' : 'full-width'}`}>
         <span onClick={toggleSidebar} className="material-symbols-outlined menu-icon">menu</span>
         <div className='user-name'>
